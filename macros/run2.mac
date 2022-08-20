@@ -1,0 +1,20 @@
+/run/numberOfThreads 3
+/run/initialize
+
+/gun/energy 5 GeV
+/analysis/setFileName electron_5GeV_lead1radlen
+/myDet/AbsorberInRadiationLengths 1.0
+/run/beamOn 2000
+
+/gun/energy 30 GeV
+/analysis/setFileName electron_30GeV_lead2cm
+/myDet/AbsorberLenUnits true
+/myDet/AbsorberIncm 2.0 cm
+/run/beamOn 2000
+
+
+/gun/energy 50 GeV
+/analysis/setFileName electron_50GeV_lead2cm
+/myDet/AbsorberLenUnits true
+/myDet/AbsorberIncm 2.0 cm
+/run/beamOn 2000

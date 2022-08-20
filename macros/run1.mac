@@ -1,0 +1,7 @@
+# Macro for running a single run for tests
+
+/run/numberOfThreads 3
+/run/initialize
+
+/gun/energy 5 GeV
+/run/beamOn 100
